@@ -1,0 +1,33 @@
+from enum import Enum
+
+
+# TODO: List is not exhaustive - need to add all arguments
+class MssqlScripterArguments(Enum):
+    SERVER = '--server'
+    DATABASE = '--database'
+    USER = '--user'
+    PASSWORD = '--password'
+    FILE_PATH = '--file-path'
+    FILE_PER_OBJECT = '--file-per-object'
+    SCRIPT_CREATE = '--script-create'
+    SCRIPT_DROP = '--script-drop'
+    SCRIPT_DROP_CREATE = '--script-drop-create'
+    INCLUDE_OBJECTS = '--include-objects'
+    EXCLUDE_OBJECTS = '--exclude-objects'
+    INCLUDE_SCHEMAS = '--include-schemas'
+    EXCLUDE_SCHEMAS = '--exclude-schemas'
+    INCLUDE_TYPES = '--include-types'
+    EXCLUDE_TYPES = '--exclude-types'
+    ANSI_PADDING = '--ansi-padding'
+    APPEND = '--append'
+    CHECK_FOR_EXISTENCE = '--check-for-existence'
+    CONTINUE_ON_ERROR = '--continue-on-error'
+    EXCLUDE_HEADERS = '--exclude-headers'
+    OBJECT_PERMISSIONS = '--object-permissions'
+    OWNER = '--owner'
+    EXCLUDE_USE_DATABASE = '--exclude-use-database'
+    CHANGE_TRACKING = '--change-tracking'
+    DATA_COMPRESSIONS = '--data-compressions'
+    DISPLAY_PROGRESS = '--display-progress'
+    DATA_ONLY = '--data-only'
+    SCHEMA_AND_DATA = '--schema-and-data'

@@ -1,0 +1,14 @@
+{
+  "databases": [
+    {
+      "database_type": "mssql",
+      "alias": "northwind",
+      "local_path": "",
+      "name": "Northwind",
+      "server": "localhost",
+      "port": "",
+      "username": "sa",
+      "password": ""
+    }
+  ]
+}

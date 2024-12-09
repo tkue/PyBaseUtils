@@ -1,0 +1,35 @@
+{
+  "local_repo_path": "C:\\Users\\tomku\\Dropbox\\bin\\mssqldatabases\\",
+  "databases": [
+    {
+      "alias": "WideWorldImporters",
+      "software_branch": "stable",
+      "local_path": "C:\\Users\\tomku\\Dropbox\\bin\\mssqldatabases\\WideWorldImporters",
+      "host": "localhost",
+      "port": "",
+      "database": "WideWorldImporters",
+      "username": "sa",
+      "password": "password"
+    },
+    {
+      "alias": "Northwind",
+      "host": "localhost",
+      "software_branch": "stable",
+      "local_path": "C:\\Users\\tomku\\Dropbox\\bin\\mssqldatabases\\Northwind",
+      "port": "",
+      "database": "Northwind",
+      "username": "sa",
+      "password": "password"
+    },
+    {
+      "alias": "Northwind_Beta",
+      "host": "localhost",
+      "software_branch": "beta",
+      "local_path": "C:\\Users\\tomku\\Dropbox\\bin\\mssqldatabases\\Northwind",
+      "port": "",
+      "database": "Northwind_Beta",
+      "username": "sa",
+      "password": "password"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "database": {
+    "name": "database.db",
+    "schema_script": "database/schema/schema.sql",
+    "setup_scripts": [
+      "database/schema/schema_data.sql"
+    ]
+  },
+  "logging": {
+    "level": "DEBUG",
+    "file": "output.log"
+  },
+  "sites": [
+    {
+      "name": "site1",
+      "url": "https://www.examplesite.com/startpage"
+    }
+  ],
+  "selenium": {
+      "chrome_driver_path": "../lib/drivers/chromedriver",
+      "chrome_driver_arguments": [
+          "--start-maximized"
+      ]
+  },
+  "connection": {
+      "original_public_ip": "",
+      "is_need_mask_ip": "true"
+  }
+}
